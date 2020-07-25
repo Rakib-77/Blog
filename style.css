@@ -1,0 +1,370 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mrs+Sheppards&family=Open+Sans:ital,wght@1,300&display=swap');
+/* general css */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+/* header area */
+.header-area{
+	padding: 20px 0;
+}
+.header-top{}
+.menu-area{}
+.menu-icon{
+	display: none;
+}
+.main-menu{}
+.main-menu > ul{
+	display: flex;
+}
+.main-menu ul li{
+	list-style: none;
+
+	position: relative;
+}
+.main-menu ul li a{
+	padding: 5px 15px;
+	display: block;
+	text-transform: uppercase;
+	color: #000;
+}
+.main-menu ul li a:hover{
+	color: #e1d9bd;
+}
+.main-menu ul li a i{
+	margin-left: 3px;
+}
+.main-menu ul ul{
+	line-height: 2em;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+.main-menu ul ul li{
+	white-space: nowrap;
+}
+.main-menu ul li:hover ul{
+	display: block;
+}
+.social-icon{}
+.header-top .social-icon:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header-top .social-icon ul{
+	display: flex;
+	float: right;
+}
+.social-icon ul li{
+	list-style: none;
+}
+.social-icon ul li a{
+	padding: 5px 15px;
+	display: block;
+}
+.social-icon ul li a i{
+	color: #000;
+}
+.header-bottom{
+	padding: 30px 0;
+}
+.header-logo{
+	width: 30%;
+	margin: 0 auto;
+}
+.header-logo img{}
+
+/* popular area */
+.popular-area{}
+.popular-items{}
+.popular-img{}
+.popular-img img{
+	width: 100%;
+	position: relative;
+}
+.popular-text{
+	text-align: center;
+	border: 3px solid #b59f5b;
+	width: 80%;
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 15px; 
+}
+.popular-text span{
+	text-transform: uppercase;
+	color: #b59f5b;
+}
+.popular-text h2{
+	font-size: 20px;
+	margin: 10px 0;
+	color: #fff;
+}
+.popular-date{
+	overflow: hidden;
+}
+.popular-date p{
+	float: left;
+	padding: 8px;
+	color: #fff;
+}
+.popular-date span{
+	float: right;
+	padding: 8px;
+}
+
+/* middle section */
+.middle-section{
+	padding: 120px 0 100px;
+}
+.post-area{
+	margin-bottom: 90px;
+}
+.post-item{
+	display: flex;
+}
+.post-img{}
+.post-img img{
+}
+.post-text{
+
+	
+}
+.post-text b{
+	text-transform: uppercase;
+	color: #b59f5b;
+}
+.post-text h2{
+	font-size: 20px;
+	width: 80%;
+	margin: 15px 0;
+	text-transform: uppercase;
+} 
+.post-text p{
+	width: 95%;
+	margin-top: 40px;
+	color: #a4a4a4;
+}
+.post-title-border{
+	border: 3px solid #b59f5b;
+	margin-left: -23%;
+	padding: 15px 0;
+	margin-top: -8%;
+}
+.post-title{
+	margin-left: 18%;
+}
+.post-footer{
+	overflow: hidden;
+	margin-top: 35px;
+	margin-left: -25%;
+	box-shadow: 0 3px #eeeeee;
+}
+.post-footer span{
+	float: left;
+	margin-right: 10%;
+}
+.post-footer .social-icon ul li:first-child{
+	padding-top: 3px;
+	color: #a4a4a4;
+}
+.post-title span{
+	color: #a4a4a4;
+}
+.post-title span strong{
+	color: #000;
+	margin-left: 15px;
+}
+
+/* sidebar */
+.right-sidebar{}
+.sidebar-item{}
+.sidebar-item h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	display: block;
+}
+.about-me{
+	text-align: center;
+	border: 3px solid #b59f5b;
+	padding: 100px 10px 30px;
+	margin-top: 50px;
+}
+.about-me img{
+	margin-top: -110%;
+}
+.about-me p{
+	font-size: 15px;
+}
+.about-social-ion{}
+.about-social-ion h3{
+	font-size: 17px;
+	color: #b59f5b;
+	margin: 20px 0;
+	font-family: 'Mrs Sheppards', cursive;
+}
+.sidebar-item{
+	margin: 30px 0;
+}
+.sidebar-title{
+	text-align: center;
+	margin: 20px 0;
+}
+.sidebar-title h2{
+	font-size: 18px;
+	font-weight: 700;
+	border-bottom: 2px solid #b59f5b;
+	display: inline-block;
+	padding: 0  0 10px 0;
+}
+.s-n-f form{
+	margin: 10px 0;
+}
+.s-n-f form input[type=text] {
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	background-color: #f4f7f6;
+	border: none;
+	color: #d7d9d9;
+}
+.s-n-f form input[type=text]::placeholder{
+	color: #d7d9d9;
+	opacity: 1;
+}
+.s-n-f form input[type=text]::-webkit-input-placeholder { /* Edge */
+  color: #d7d9d9;
+  opacity: 1;
+}
+
+.s-n-f form input[type=text]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d7d9d9;
+  opacity: 1;
+}
+.s-n-f form button{
+	width: 100%;
+	border: none;
+	background-color: #b59f5b;
+}
+.s-n-f form button input[type=submit]{
+	border: none;
+	background-color: #b59f5b;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px;
+}	
+.sidebar-item{}
+.sidebar-item ul{}
+.sidebar-item ul li{
+	list-style: none;
+}
+.sidebar-item ul li a{
+	line-height: 3em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #eaebeb;
+	color: #000;
+	display: block;
+}
+.r-post-text{}
+.r-p-img img{
+	margin: 15px 0;
+}
+.r-post-text span{
+	font-size: 14px;
+	color: #9a9a9a;
+}
+.r-post-text h4{
+	font-size: 18px;
+	font-weight: 700;
+}
+.sidebar-search{}
+.sidebar-search form{
+	
+}
+.sidebar-search form input[type=text]{
+	border: none;
+	background-color: #f4f7f6;
+	text-transform: capitalize;
+	padding: 10px;
+	width: 70%;
+	color: #bdc0bf;
+}
+.sidebar-search form input[type=text]::placeholder{
+	color: #bdc0bf;
+	opacity: 1;
+}
+.sidebar-search form input[type=text]:-ms-input-placeholder{
+	color: #bdc0bf;
+	opacity: 1;
+}
+.sidebar-search form input[type=text]::-webkit-input-placeholder{
+	color: #bdc0bf;
+	opacity: 1;
+}
+.sidebar-search form button{
+	background-color: #b59f5b;
+	border: none;
+	padding: 10px;
+	margin-left: -3px;
+}
+.sidebar-search form button input[type=submit]{
+	background-color: transparent;
+	border: none;
+}
+.sidebar-search form button i{
+	color: #fff;
+}
+
+/* instra area */
+.instra-area{}
+.instra-text{
+	text-align: center;
+}
+.instra-text h2{
+	font-size: 18px;
+}
+.instra-text h3{
+	color: #cabb92;
+	font-size: 15px;
+	font-family: 'Mrs Sheppards', cursive;
+}
+.instra-photo{
+	margin-top: 40px;
+}
+
+
+/* footer area */
+.footer-area{
+	margin-top: 30px;
+}
+.footer-socila-icon{
+	background-color: #f4f7f6;
+	padding: 30px 0;
+}
+.footer-logo{
+	width: 3%;
+	margin: 15px auto;
+
+}
+.footer-logo img{}
+.footer-text{
+	text-align: center;
+}
+.footer-text p{
+	font-size: 14px;
+	color: #b8b8b8;
+}
